@@ -1,0 +1,19 @@
+{
+  "name": "tvs",
+  "version": "0.0.0",
+  "description": "meidian get products info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "~4.13.1",
+    "cheerio": "0.19"
+  },
+  "devDependencies": {
+    "connect-timeout": "^1.7.0",
+    "request": "^2.65.0"
+  },
+  "author": "reacher",
+  "license": "MIT"
+}
