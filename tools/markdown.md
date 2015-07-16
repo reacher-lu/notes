@@ -2,8 +2,10 @@
 
 ### 标题设置（让字体变大，和word的标题意思一样）
 在Markdown当中设置标题，有两种方式：
-* 第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。
-* 第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）
+
+第一种：通过在文字下方添加“=”和“-”，他们分别表示一级标题和二级标题。
+
+第二种：在文字开头加上 “#”，通过“#”数量表示几级标题。（一共只有1~6级标题，1级标题字体最大）
 
 ### 块注释（blockquote）
 通过在文字开头添加“>”表示块注释。（当>和文字之间添加五个blank时，块注释的文字会有变化。）
@@ -21,13 +23,14 @@
 使用数字后面跟上句号。（还要有空格）
 
 ### 链接（Links）
-* Markdown中有两种方式，实现链接，分别为内联方式和引用方式。
-* 内联方式：This is an [example link](http://example.com/).
-* 引用方式：
-
+Markdown中有两种方式，实现链接，分别为内联方式和引用方式。
 ``` bash
 
-I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3###  
+* 内联方式：
+This is an [example link](http://example.com/).
+
+* 引用方式：
+I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3]
 
 [1]: http://google.com/        "Google" 
 [2]: http://search.yahoo.com/  "Yahoo Search" 
@@ -37,10 +40,11 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3###
 
 ### 图片（Images）
 图片的处理方式和链接的处理方式，非常的类似。
-* 内联方式：![alt text](/path/to/img.jpg "Title")
-* 引用方式：
-
 ``` bash
+* 内联方式：
+![alt text](/path/to/img.jpg "Title")
+
+* 引用方式：
 ![alt text][id] 
 [id]: /path/to/img.jpg "Title"
 ```
@@ -51,8 +55,6 @@ I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3###
 * 第二种：大片文字需要实现代码框。使用Tab和四个空格。
 
 ### 脚注（footnote）
-实现方式如下：
-
 ``` bash
 
 hello[^hello]
