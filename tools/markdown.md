@@ -70,4 +70,4 @@ hello[^hello]
 
 [官网](http://daringfireball.net/projects/markdown/)
 
-[在线API](https://stackedit.io/)
+[在线编辑器](https://stackedit.io/)
