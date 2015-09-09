@@ -41,6 +41,16 @@ exitFullscreen();
 
 TIPS : 需要以用户的事件触发，不能直接执行全屏代码
 
+- 属性和事件
+
+document.fullScreenElement：当前全屏显示的元素。
+
+document.fullScreenEnabled：判断浏览器是否支持全屏。
+
+fullscreenchange事件：全屏状态改变事件。
+
+`好像也没什么卵用`
+
 
 #### 差异
 
@@ -65,14 +75,7 @@ TIPS : 需要以用户的事件触发，不能直接执行全屏代码
   }  
 
   ```
-
-  mozfullscreenchange
-  mozfullscreenchange
-
-
-
-
-
+  
 
 #### 相关资料
 
