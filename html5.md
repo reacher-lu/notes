@@ -82,3 +82,10 @@ fullscreenchange事件：全屏状态改变事件。
 [w3源文档](http://dvcs.w3.org/hg/fullscreen/raw-file/tip/Overview.html#api)
 
 [详细说明](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API)
+
+
+
+***
+
+
+
